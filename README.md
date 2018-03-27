@@ -6,7 +6,7 @@
 * Copy the url
 * Indicate where the repository should be cloned 
 	* Note : a sub directory with the name of the cloned repo will be created beneath the selected directory
-* Answer yes when VS Code ask to open the workspace
+* Answer yes when VS Code ask to open the cloned repository
 * Create and edit files in the workspace
 * 
 
