@@ -15,10 +15,8 @@
 * The file is now commited locally
 * Click on the "..." and select **Push**
 * You may have to type you're Git credentials
+	* If you get tired read "About entering credentials" below
 * You're done!
-
-
-
 
 ## YouTubegraphy
 1. https://www.youtube.com/watch?v=6n1G45kpU2o
@@ -26,5 +24,6 @@
 
 
 ## About entering credentials
-1. https://github.com/Microsoft/vscode/issues/26573
-In a terminal : git config --global credential.helper wincred
+In a terminal type : git config --global credential.helper wincred
+Read https://github.com/Microsoft/vscode/issues/26573
+
