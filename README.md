@@ -18,6 +18,31 @@
 	* If you get tired read "About entering credentials" below
 * You're done!
 
+## Branching
+* Open main.cpp
+* Click on "master" in the bottom left
+* Give a name to the branch (name it "branch" for example)
+* Add a line to main.cpp (getchar(); on line 5 for example)
+* Save the main.cpp file
+* CTRL+SHIFT+G
+* Enter a sentence ("Add getchar" for example)
+* Press CTRL+ENTER
+* Click on "branch" in the bottom left and switch to "master"
+* Line 5 disapear !
+* To take the modifications into account in master make sure "master" is visible in the bottom left corner
+* Press F1
+* Type "git mer..."
+* Select "git merge option"
+* Select the branch you want to merge ("branch" in our case)
+* The main.cpp now have a getchar() finction call on line 5
+* We can now delete "branch"
+* F1
+* Type "git del..."
+* Select "git delete branch"
+* Select the branch you want to merge ("branch" in our case)
+* Make a push on github (see above the previous instructions)
+
+
 ## YouTubegraphy
 1. https://www.youtube.com/watch?v=6n1G45kpU2o
 2. https://www.youtube.com/watch?v=9cMWR-EGFuY
