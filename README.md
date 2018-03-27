@@ -13,10 +13,18 @@
 * CTRL+SHIFT+G to activate the Git pan in the bar on the left
 * Enter a message then press Ctrl + ENTER
 * The file is now commited locally
-* Bottom left click the sync icon
+* Click on the "..." and select **Push**
+* You may have to type you're Git credentials
 * You're done!
+
+
 
 
 ## YouTubegraphy
 1. https://www.youtube.com/watch?v=6n1G45kpU2o
 2. https://www.youtube.com/watch?v=9cMWR-EGFuY
+
+
+## About entering credentials
+1. https://github.com/Microsoft/vscode/issues/26573
+In a terminal : git config --global credential.helper wincred
