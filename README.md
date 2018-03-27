@@ -9,8 +9,8 @@
 * Answer **yes** when VS Code ask to open the cloned repository
 * For example, create and edit one file in the workspace
 * Save the file
-* The git icon should show the nunber of files impacted (1 here)
-* CTRL+SHIFT+G to activate the Git pan in the bar on the left
+* The git icon should show the number of files impacted (1 here)
+* CTRL+SHIFT+G to activate the Git panel in the left bar 
 * Enter a message then press Ctrl + ENTER
 * The file is now commited locally
 * Click on the "..." and select **Push**
@@ -23,6 +23,9 @@
 * Click on "master" in the bottom left
 * Give a name to the branch (name it "branch" for example)
 * Add a line to main.cpp (getchar(); on line 5 for example)
+```cpp
+getchar(); 
+````
 * Save the main.cpp file
 * CTRL+SHIFT+G
 * Enter a sentence ("Add getchar" for example)
