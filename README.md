@@ -26,4 +26,4 @@
 ## About entering credentials
 In a terminal type : git config --global credential.helper wincred
 Read https://github.com/Microsoft/vscode/issues/26573
-
+You should then no longer be worried
