@@ -45,13 +45,17 @@ getchar();
 * Select the branch you want to merge ("branch" in our case)
 * Make a push on github (see above the previous instructions)
 
+## About entering credentials
+In a terminal type : 
+```bat
+git config --global credential.helper wincred
+```
+You should then no longer be worried
+
+Feel free to read : https://github.com/Microsoft/vscode/issues/26573
+
 
 ## YouTubegraphy
 1. https://www.youtube.com/watch?v=6n1G45kpU2o
 2. https://www.youtube.com/watch?v=9cMWR-EGFuY
 
-
-## About entering credentials
-In a terminal type : git config --global credential.helper wincred
-Read https://github.com/Microsoft/vscode/issues/26573
-You should then no longer be worried
