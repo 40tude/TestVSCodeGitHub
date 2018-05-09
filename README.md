@@ -1,4 +1,14 @@
-## Steps
+## Case 1 - Push exisiting repo
+* Create local directory with files and sub directories
+* Create a local repo and some comits
+* Create a repo on github 
+* Copy the URL
+* Back in VS Code open a console
+* Type in : git remote add origin https://github.com/...
+* Then : git remote show origin
+* Fianlly : git push -u origin master
+
+## Case 2 - Clone a repo
 * Create a repo on github 
 * Copy the url : https://github.com/40tude/TestVSCodeGitHub.git
 * Open VS Code
@@ -17,6 +27,8 @@
 * You may have to type you're Git credentials
 	* If you get tired read "About entering credentials" below
 * You're done!
+
+
 
 ## Branching
 * Open main.cpp
